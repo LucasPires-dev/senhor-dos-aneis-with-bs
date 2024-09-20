@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    background-color: #06162A;
+}
+
+#cabecalho.nav .nav-link.active {
+    background-color: #fff;
+    color: #06162A;
+}
+
+#cabecalho.nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Pacifico", cursive;
+}
+
+/* .section-title span {
+    color: #06162A;
+} */
+
+#sobre, #explorar {
+    background-color: #94afcf;
+}
+
+.text-colored {
+    color: #06162A;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #06162A;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #06162A;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 400px){
+    .carousel-item img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .carousel-item {
+        max-height: 280px;
+    }
+    .carousel-item img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #carousel .carousel-item {
+        max-height: 800px;
+        overflow-y: hidden;
+        
+    }
+    #carousel .carousel-item img {
+        width: 100%;
+    }
+}
